@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_info_pessoais">
+
+    <fragment
+        android:id="@+id/nav_info_pessoais"
+        android:name="com.example.assessment_menu.ui.info.InfoPessoasFragment"
+        android:label="@string/menu_informacoes_pessoais"
+        tools:layout="@layout/fragment_info_pessoais" />
+
+    <fragment
+        android:id="@+id/nav_formacao"
+        android:name="com.example.assessment_menu.ui.formacao.FormacaoFragment"
+        android:label="@string/menu_formacao"
+        tools:layout="@layout/fragment_experiencia" />
+
+    <fragment
+        android:id="@+id/nav_experiencia"
+        android:name="com.example.assessment_menu.ui.experiencia.ExperienciaFragment"
+        android:label="@string/menu_experiencia"
+        tools:layout="@layout/fragment_formacao" />
+    <fragment
+        android:id="@+id/nav_cursos"
+        android:name="com.example.assessment_menu.ui.cursos.Cursosfragment"
+        android:label="@string/menu_cursos"
+        tools:layout="@layout/fragment_cursos" />
+    <fragment
+        android:id="@+id/nav_publicacoes"
+        android:name="com.example.assessment_menu.ui.publicacoes.PublicacoesFragment"
+        android:label="@string/menu_publicacoes"
+        tools:layout="@layout/fragment_publicacoes" />
+</navigation>

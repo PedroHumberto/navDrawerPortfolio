@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">assessment_menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Pedro Humberto Gonçalves Cardoso</string>
+    <string name="nav_header_subtitle">pedrohumbertogc@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_informacoes_pessoais">Informações Pessoais</string>
+    <string name="menu_formacao">Formação</string>
+    <string name="menu_experiencia">Experiencia Profissional</string>
+    <string name="menu_cursos">Cursos</string>
+    <string name="menu_publicacoes">Publicações</string>
+</resources>
